@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Shanmuga\LaravelEntrust\Models\EntrustRole;
+
+class DummyClass extends EntrustRole
+{
+    use HasFactory;
+}
